@@ -73,16 +73,16 @@ minetest.register_craft({
 	burntime = 30,
 })
 
-minetest.register_craft( {
-	type = "shapeless",
-	output = "basic_materials:terracotta_base 8",
-	recipe = {
-		"bucket:bucket_water",
-		"default:clay_lump",
-		"default:gravel",
-	},
-	replacements = { {"bucket:bucket_water", "bucket:bucket_empty"}, },
-})
+-- minetest.register_craft( {
+	-- type = "shapeless",
+	-- output = "basic_materials:terracotta_base 8",
+	-- recipe = {
+		-- "bucket:bucket_water",
+		-- "default:clay_lump",
+		-- "default:gravel",
+	-- },
+	-- replacements = { {"bucket:bucket_water", "bucket:bucket_empty"}, },
+-- })
 
 minetest.register_craft({
 	type = "shapeless",
@@ -104,14 +104,14 @@ minetest.register_craft({
 	cooktime = 8
 })
 
-minetest.register_craft({
-	output = 'basic_materials:concrete_block 6',
-	recipe = {
-		{'group:sand',                'basic_materials:wet_cement', 'default:gravel'},
-		{'basic_materials:steel_bar', 'basic_materials:wet_cement', 'basic_materials:steel_bar'},
-		{'default:gravel',            'basic_materials:wet_cement', 'group:sand'},
-	}
-})
+-- minetest.register_craft({
+	-- output = 'basic_materials:concrete_block 6',
+	-- recipe = {
+		-- {'group:sand',                'basic_materials:wet_cement', 'default:gravel'},
+		-- {'basic_materials:steel_bar', 'basic_materials:wet_cement', 'basic_materials:steel_bar'},
+		-- {'default:gravel',            'basic_materials:wet_cement', 'group:sand'},
+	-- }
+-- })
 
 -- aliases
 

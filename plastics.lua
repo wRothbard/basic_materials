@@ -8,15 +8,15 @@ minetest.register_craftitem("basic_materials:plastic_sheet", {
 	inventory_image = "basic_materials_plastic_sheet.png",
 })
 
-minetest.register_craftitem("basic_materials:plastic_strip", {
-	description = S("Plastic strips"),
-	inventory_image = "basic_materials_plastic_strip.png",
-})
+-- minetest.register_craftitem("basic_materials:plastic_strip", {
+	-- description = S("Plastic strips"),
+	-- inventory_image = "basic_materials_plastic_strip.png",
+-- })
 
-minetest.register_craftitem("basic_materials:empty_spool", {
-	description = S("Empty wire spool"),
-	inventory_image = "basic_materials_empty_spool.png"
-})
+-- minetest.register_craftitem("basic_materials:empty_spool", {
+	-- description = S("Empty wire spool"),
+	-- inventory_image = "basic_materials_empty_spool.png"
+-- })
 
 -- crafts
 
@@ -32,21 +32,21 @@ minetest.register_craft({
 	burntime = 30,
 })
 
-minetest.register_craft( {
-    output = "basic_materials:plastic_strip 9",
-    recipe = {
-		{ "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
-    },
-})
+-- minetest.register_craft( {
+    -- output = "basic_materials:plastic_strip 9",
+    -- recipe = {
+		-- { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
+    -- },
+-- })
 
-minetest.register_craft( {
-	output = "basic_materials:empty_spool 3",
-	recipe = {
-		{ "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
-		{ "", "basic_materials:plastic_sheet", "" },
-		{ "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
-	},
-})
+-- minetest.register_craft( {
+	-- output = "basic_materials:empty_spool 3",
+	-- recipe = {
+		-- { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
+		-- { "", "basic_materials:plastic_sheet", "" },
+		-- { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
+	-- },
+-- })
 
 -- aliases
 
